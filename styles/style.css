@@ -140,6 +140,7 @@ a:hover {
 section p {
   line-height: 24px;
   font-size: 22px;
+  margin-bottom: 10px;
 }
 
 section ul {
