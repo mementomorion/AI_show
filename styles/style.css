@@ -2,6 +2,15 @@
   font-family: 'dr_huilo';
   src: url('../fonts/irelandkyr.ttf') format('truetype');
 }
+body::-webkit-scrollbar {
+  width: 6px;/* ширина scrollbar */
+}
+body::-webkit-scrollbar-track {
+  background: rgb(0, 0, 0, 0);/* цвет дорожки */
+}
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(252, 252, 252);
+}
 
 .textunder{
   display: grid;
